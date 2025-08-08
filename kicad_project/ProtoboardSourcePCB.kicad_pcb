@@ -482,6 +482,7 @@
 		(property "Reference" "H4"
 			(at 0 -6.95 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9c601e74-c5cb-4a86-b9f9-ae34d530127d")
 			(effects
 				(font
@@ -586,6 +587,7 @@
 		(property "Reference" "H2"
 			(at 0 -6.95 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "68e51e14-eeb2-47d9-af03-40cb71d5c93e")
 			(effects
 				(font
@@ -1250,6 +1252,7 @@
 		(property "Reference" "H1"
 			(at 0 -6.95 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0c63b7e4-964c-4e74-8d69-34e33b51581c")
 			(effects
 				(font
@@ -1715,6 +1718,7 @@
 		(property "Reference" "H3"
 			(at 0 -6.95 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e906c6c0-3412-4686-ad99-e1e16417e2a1")
 			(effects
 				(font
@@ -1810,15 +1814,16 @@
 		)
 		(embedded_fonts no)
 	)
-	(gr_line
-		(start 110.25 71)
-		(end 139.95 71)
+	(gr_rect
+		(start 110.25 70)
+		(end 139.95 72)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "bac02c72-c39c-442e-83b2-2d81872cef79")
+		(uuid "b9c19586-2707-4125-9c6a-8b1cb25c2014")
 	)
 	(gr_line
 		(start 109.7 72)
@@ -1839,6 +1844,26 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "aee76f56-68c1-4534-985d-ff3dba86c606")
+	)
+	(gr_line
+		(start 110.2 71)
+		(end 109.55 71)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "b0c684ac-87df-4472-85d2-26971984d8da")
+	)
+	(gr_line
+		(start 140 71)
+		(end 140.9 71)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "bc099c5c-5d0e-4f32-9c7a-5ae48035d4f7")
 	)
 	(gr_arc
 		(start 159.2 39.8)
@@ -2015,7 +2040,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -2027,7 +2052,19 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Banana to Breadboard Adapter"
+		(at 111.95 71.6 0)
+		(layer "F.SilkS")
+		(uuid "1e321b3b-17fb-465c-813f-3ce14ac62a0a")
+		(effects
+			(font
+				(size 1.1 1.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -2039,7 +2076,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -2051,7 +2088,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -2063,7 +2100,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -2075,7 +2112,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -2087,7 +2124,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -2099,7 +2136,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -2111,7 +2148,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -2123,7 +2160,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -2135,7 +2172,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -2147,7 +2184,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -2159,7 +2196,43 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 121.4 49.7 0)
+		(layer "F.SilkS")
+		(uuid "da1699ca-41fc-4644-bb81-f90d8ef6e1a2")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 121.45 94.75 0)
+		(layer "F.SilkS")
+		(uuid "dd5d19c4-51ef-4c41-8fec-141915123204")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 127 62.65 0)
+		(layer "F.SilkS")
+		(uuid "e2f56811-7cce-44c3-90cb-57d1940cec31")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -2171,7 +2244,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -2183,7 +2256,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -2195,7 +2268,19 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 126.9 82.25 0)
+		(layer "F.SilkS")
+		(uuid "e4e8b874-732a-4bc2-8629-1e6bdbe9788d")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -2207,7 +2292,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -2219,7 +2304,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -2231,7 +2316,7 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -2243,9 +2328,33 @@
 		(effects
 			(font
 				(size 2 2)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "Designed By: Rodrigo Madrigal Montes"
+		(at 136.2 86.15 270)
+		(layer "B.SilkS")
+		(uuid "588308b6-1f70-4a1b-98be-a96b7f464e08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "rmadrigalmontes@gmail.com"
+		(at 133.1 82.35 270)
+		(layer "B.SilkS")
+		(uuid "ba2efe05-8b58-41fb-a795-35fdce666127")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment
